@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Koanyx Trac</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="brand"><i class="dot"></i><h1>Koanyx Trac</h1></div>
+    <label class="switch" title="Turn tracking on or off">
+      <input type="checkbox" id="enabled" aria-label="Tracking on or off">
+      <span class="track"><span class="thumb"></span></span>
+    </label>
+  </header>
+  <div class="clock"><span id="ptime"></span><span id="pdate"></span></div>
+
+  <section class="hero">
+    <div class="num" id="score">–</div>
+    <div class="meta">
+      <p class="verdict" id="verdict">Tracking is off</p>
+      <p class="site" id="site">This page</p>
+    </div>
+  </section>
+
+  <dl class="stats" id="stats"></dl>
+
+  <section class="map">
+    <div class="mapframe"><canvas id="pmap"></canvas><span class="empty" id="pmapEmpty">Move your mouse on the page to build the map</span></div>
+    <div class="lab"><span>Rarely here</span><span>Stays long</span></div>
+    <p class="mapnote" id="mapnote"></p>
+    <button id="showheat">Show heatmap on page</button>
+  </section>
+
+  <section class="opts">
+    <label class="row"><span>Show live panel on pages</span>
+      <input type="checkbox" id="hud"></label>
+    <label class="row"><span>Show cursor trail</span>
+      <input type="checkbox" id="trail"></label>
+  </section>
+
+  <footer>
+    <button id="export">Export site data</button>
+    <button id="reset" class="ghost">Reset site</button>
+  </footer>
+  <p class="note">Data stays in your browser. Typed text is never recorded.</p>
+  <script src="shared.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Koanyx Trac",
+  "version": "1.0.0",
+  "description": "Koanyx Trac is a usability tracker. Switch it on and it spots rage clicks, dead clicks, scroll U-turns and slow fields on any website.",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_title": "Koanyx Trac",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["shared.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": { "id": "koanyx-trac@koanyx.app", "strict_min_version": "109.0" }
+  }
+}
