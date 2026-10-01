@@ -1,6 +1,9 @@
 <img width="352" height="746" alt="image" src="https://github.com/user-attachments/assets/dd9360d0-98e2-4130-bdcb-f3cdc6a25622" />
 
 <img width="482" height="899" alt="image" src="https://github.com/user-attachments/assets/d231fd8d-d1f7-42fa-a132-2be0a94cd308" />
+Heat map
+<img width="441" height="281" alt="image" src="https://github.com/user-attachments/assets/18b33db3-2e6c-4f16-b877-6a3293658452" />
+<img width="1920" height="949" alt="image" src="https://github.com/user-attachments/assets/e5e98cd7-afff-45e4-83a2-ba0b2f6b2ed2" />
 
 # Koanyx Trac
 
