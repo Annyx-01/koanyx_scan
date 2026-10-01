@@ -1,3 +1,7 @@
+<img width="352" height="746" alt="image" src="https://github.com/user-attachments/assets/dd9360d0-98e2-4130-bdcb-f3cdc6a25622" />
+
+<img width="482" height="899" alt="image" src="https://github.com/user-attachments/assets/d231fd8d-d1f7-42fa-a132-2be0a94cd308" />
+
 # Koanyx Trac
 
 A usability tracker for any website. Mahogany interface.
